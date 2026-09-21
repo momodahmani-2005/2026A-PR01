@@ -8,7 +8,7 @@ ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 
 # Dimensions de la fenêtre
 SCREEN_WIDTH = 576
-SCREEN_HEIGHT = 1024
+SCREEN_HEIGHT = 1234
 
 # Dimensions du Doodle
 DOODLE_WIDTH = 60
