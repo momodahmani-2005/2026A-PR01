@@ -62,6 +62,7 @@ def draw_window():
             GAME_WINDOW.blit(p["image"], (int(p["x"]), int(p["y"])))
 
     GAME_WINDOW.blit(doodle_dict["image"], (int(doodle_dict["x"]), int(doodle_dict["y"])))
+    print(doodle_dict)
 
     font = pygame.font.SysFont("Arial", 28, bold=True)
     score_text = font.render(f"Score : {int(doodle_dict['score'])}", True, (40, 40, 40))

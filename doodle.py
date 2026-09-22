@@ -19,9 +19,10 @@ doodle_right_img = pygame.transform.scale(doodle_right_img, DOODLE_SIZE)
 # définies dans config.py. N'utilisez pas de nombres écrits directement.
 
 # Initialisation du dictionnaire global du Doodle
+print("START :", DOODLE_START_X, DOODLE_START_Y)
 doodle_dict.update({
-    "x": 1000,
-    "y": 1000,
+    "x": DOODLE_START_X,
+    "y": DOODLE_START_Y,
     "vel_y": 0.0,
     "direction": "right",  # "left" ou "right"
     "score": 0,
